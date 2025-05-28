@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: rgb(59, 58, 113);
+  margin: 0;
+      background-image: url("Homephotofull.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Feedback Form */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    width: 100%;
+     color: #007b8a;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007b8a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #007b8a;
+  color: white;
+}
+
+th, td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr {
+  background-color: #f1f1f1;
+}
+
+button{
+	
+	colour: #007b8a;
+}

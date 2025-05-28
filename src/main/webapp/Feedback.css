@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #9cddef, #c2e8e8);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Homephotofull.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Section */
+header {
+    background-color:#3c5150;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    padding-bottom: 60px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 20px;
+    transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #b3b6b8;
+    border-radius: 5px;
+}
+
+.login-btn {
+  
+    padding-left: 100px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    font-size: 15px;
+    outline: none;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    background-color: #e0f0ff;
+    box-shadow: 0 0 0 2px #00bfff;
+}
+.feedback-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #008c7e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #006e63;
+}

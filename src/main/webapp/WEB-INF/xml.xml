@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+     <servlet>
+     	<servlet-name>insertServlet</servlet-name>
+     	<servlet-class>examModule.insertservlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>insertServlet</servlet-name>
+     	<url-pattern>/insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>getAllServlet</servlet-name>
+     	<servlet-class>examModule.getAllServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>getAllServlet</servlet-name>
+     	<url-pattern>/getAllservlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>moduleUpdateServlet</servlet-name>
+     	<servlet-class>examModule.moduleUpdateServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>moduleUpdateServlet</servlet-name>
+     	<url-pattern>/moduleUpdateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name>moduleDeleteServlet</servlet-name>
+     	<servlet-class>examModule.moduleDeleteServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>moduleDeleteServlet</servlet-name>
+     	<url-pattern>/moduleDeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+
+</web-app>

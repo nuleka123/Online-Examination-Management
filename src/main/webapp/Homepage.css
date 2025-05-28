@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #9cddef, #c2e8e8);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Homephotofull.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}header {
+  background-color: #1d3566;
+  width: 100%;
+  padding: 10px 0;
+  padding-bottom: 60px;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+}header-container.h3{
+  
+  padding-right: 300px;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+  
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 20px;
+  transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #b3b6b8;
+  border-radius: 5px;
+}
+
+.login-btn {
+
+  padding-left: 100px;
+}
+
+/* Feedback Form */
